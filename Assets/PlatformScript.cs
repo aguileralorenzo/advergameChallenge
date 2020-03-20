@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class PlatformScript : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision){
+    public float jumpForce = 4f;
+        void OnCollisionEnter2D(Collision2D collision){
         Rigidbody2D rb = collision.collider.GetComponent<Rigidbody2D>();
+        if(rb!=null){
+            Vector2 velocity = rb.velocity;
+            velocity.y =jumpForce;
+            rb.velocity = velocity;
+        }
     }
     // Start is called before the first frame update
     void Start()
