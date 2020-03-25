@@ -18,14 +18,13 @@ public class player : MonoBehaviour
     void Update()
     {
         movement = Input.GetAxis("Horizontal");
-       // movement = Input.mousePosition.x;
-
+        
     }
 
     void FixedUpdate()
     {
         Vector2 velocity = rb.velocity;
-        velocity.x = movement;
+        velocity.x = movement*5;
         rb.velocity = velocity;
     }
 }
