@@ -18,7 +18,6 @@ public class player : MonoBehaviour
     void Update()
     {
         movement = Input.GetAxis("Horizontal");
-        
     }
 
     void FixedUpdate()
