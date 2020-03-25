@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{643601F3-929C-6A3D-5142-7E60611A96F6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/player.cs">
+    <Files>
+      <File FileName="Assets/player.cs" Line="10" Column="9" />
+      <File FileName="Assets/PlatformScript.cs" Line="12" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="advergameChallenge" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="player.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="33106714-c1f0-4608-b594-ac4f472e00dc" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
