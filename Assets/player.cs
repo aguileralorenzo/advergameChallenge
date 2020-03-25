@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[RequireComponent(typeof(Rigidbody2D));
+[RequireComponent(typeof(Rigidbody2D))]
 public class player : MonoBehaviour
 {
     public float movement = 0f;
@@ -17,7 +17,7 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement = Input.GetAxis('Horizontal');
+        movement = Input.GetAxis("Horizontal");
        // movement = Input.mousePosition.x;
 
     }
